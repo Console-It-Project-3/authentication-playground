@@ -4,7 +4,7 @@ const db = require("../models/user");
 // This file empties the collection and inserts the things below
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/game"
+  process.env.MONGODB_URI || "mongodb://localhost/users"
 );
 
 const Users = [
