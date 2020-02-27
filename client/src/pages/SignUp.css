@@ -1,0 +1,13 @@
+.container {
+    max-width: 400px;
+}
+.needs-validation{
+    margin-top: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+body{
+    background: url(https://i.imgur.com/57TTWUF.png);
+}

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-// import "./SignUp.css"
-
+import "./SignUp.css"
 class Signup extends Component {
     render() {
         return (
             <div>
+
                 <div className="container">
                     <form class="needs-validation" novalidate>
                         <div class="form-row">
@@ -13,14 +13,14 @@ class Signup extends Component {
                                 <input type="text" class="form-control" value="Mark" required />
                                 <div class="valid-feedback">
                                     Looks good!
-                                </div>
+      </div>
                             </div>
                             <div class="col-md-4 mb-3">
                                 <label for="validationCustom02">Last name</label>
                                 <input type="text" class="form-control" value="Otto" required />
                                 <div class="valid-feedback">
                                     Looks good!
-                                </div>
+      </div>
                             </div>
                             <div class="col-md-4 mb-3">
                                 <label for="validationCustomUsername">Username</label>
@@ -31,7 +31,7 @@ class Signup extends Component {
                                     <input type="text" class="form-control" aria-describedby="inputGroupPrepend" required />
                                     <div class="invalid-feedback">
                                         Please choose a username.
-                                    </div>
+        </div>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ class Signup extends Component {
                                 <input type="text" class="form-control" required />
                                 <div class="invalid-feedback">
                                     Please provide a valid zip.
-                                </div>
+      </div>
                             </div>
                         </div>
                         <div class="form-group">
@@ -59,10 +59,10 @@ class Signup extends Component {
                                 <input class="form-check-input" type="checkbox" value="" required />
                                 <label class="form-check-label" for="invalidCheck">
                                     Agree to terms and conditions
-                                </label>
+      </label>
                                 <div class="invalid-feedback">
                                     You must agree before submitting.
-                                </div>
+      </div>
                             </div>
                         </div>
                         <button class="btn btn-primary" type="submit">Submit form</button>

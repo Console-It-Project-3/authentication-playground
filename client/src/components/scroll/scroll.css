@@ -1,0 +1,16 @@
+.charContain{
+    background: url("https://i.imgur.com/57TTWUF.png");
+    margin: 0;
+    width: 100vw;
+}
+.scroll{
+    background: url("https://i.imgur.com/0XoMcjD.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 750px;
+    margin-left: 130px;
+}   
+.scrollText{
+    padding: 110px 60px 0 55px;
+}

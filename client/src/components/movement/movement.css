@@ -1,0 +1,11 @@
+
+.photo{
+    background: rgb(41, 41, 41);
+    background: url("https://i.imgur.com/gNr0EJN.png");
+    height: 350px;
+    width: 1100px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+}
+
