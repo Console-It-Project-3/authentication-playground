@@ -4,7 +4,7 @@ const User = require('../models/user')
 const passport = require('../passport')
 
 router.post('/', (req, res) => {
-    console.log('user signup');
+    console.log('user signup...........');
 
     // const { username, password } = req.body
     const firstname = req.body.firstname;
@@ -24,12 +24,14 @@ router.post('/', (req, res) => {
             })
         }
         else {
+            console.log("new user");
+            
             const newUser = new User({
                 username: username,
-                password: password,
-                firstname: firstname,
-                lastname: lastname,
-                email: email
+                password: password
+                // firstname: firstname,
+                // lastname: lastname,
+                // email: email
             })
             newUser.save((err, savedUser) => {
                 if (err) return res.json(err)
